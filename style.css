@@ -1,0 +1,105 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Caveat', cursive;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+	font-size: 90px; 
+	color: #f97a6c;
+	text-shadow: 5px 3px 5px white;
+	letter-spacing: 10px;
+}
+
+
+.buffer {
+	height: 4rem;
+}
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+	margin: 20px
+}
+.btn-primary {
+	background-color: #fba69d;
+	border-color: #fba69d;
+}
+.btn-primary:hover {
+	background-color: #f97a6c;
+	border-color: #f97a6c;
+	border-width: 4px;
+}
+.btn-xl {
+	padding:1rem 2rem;
+}
+.fa-instagram {
+  background: #a5c6c8;
+  color: #f97a6c;
+  font-size: 60px;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+.dropbtn {
+  background-color: #fba69d;
+  border-color: #fba69d;
+  border-width: 0px;
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+  margin: 20px;
+  padding:1rem 2rem;
+  color: white;
+}
+.dropbtn: hover {
+	background-color: #f97a6c;
+	border-color: #f97a6c;
+	border-width: 0px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(184, 175, 178, 0.5);
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  font-size: 20px;
+  padding: 12px 16px;
+  text-shadow: 5px 3px 5px white;
+  display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f97a6c;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown:hover .dropbtn {
+	background-color: #f97a6c;
+	border-color: #f97a6c;
+	border-width: 0px;
+}
+
+
+
+
+
+
+
+
